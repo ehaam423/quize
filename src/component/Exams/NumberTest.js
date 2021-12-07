@@ -62,11 +62,11 @@ const NumberTest = (props) => {
         for (let i = 0; i < options.length; i++) {
             if (options[i].checked === true) {
                 console.log(i, "aaaaaaaaaafffffffffffaaa");
-                label[i].style.backgroundColor = "#8833FF";
+                label[i].style.backgroundColor = "#393e60";
                 label[i].style.color = "#fFF";
                 for (let e = 0; e < label.length; e++) {
                     if (label[i] !== label[e]) {
-                        label[e].style.backgroundColor = 'transparent'
+                        label[e].style.backgroundColor = '#fFF'
                         label[e].style.color = "black";
 
                     }
@@ -95,6 +95,7 @@ const NumberTest = (props) => {
                 />
             ) : (
                 <div className={classes.test}>
+                    <h1> سوال { nextQuestion + 1 } از 30 </h1>
                     <div className={classes.qustion}>
 
                         <h1 className={classes.titr} style={{

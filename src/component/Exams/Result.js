@@ -11,6 +11,7 @@ const Result = (props) => {
         //    setShow(<h1> سولات اشتباه {falseQuest.map((ss) => (<li key={ss.questionId}> {ss.questionId} </li>
         //     ))}</h1>)
         // }
+
         setShow(
             <div className={classes.falsequest}>
                 <h1 > سوالات اشتباه </h1>
