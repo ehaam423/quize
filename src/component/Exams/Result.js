@@ -4,14 +4,14 @@ import Button from "../UI/Button";
 import answer from "./NumberTest.module.css";
 
 const Result = (props) => {
-    const [show ,setShow] = useState(<br/>);
-    const falseQuest = props.onResult;
-    const onClickHandler = (e) => {
-        // if (props.onResult.length > 0) {
-        //    setShow(<h1> سولات اشتباه {falseQuest.map((ss) => (<li key={ss.questionId}> {ss.questionId} </li>
-        //     ))}</h1>)
-        // }
 
+    const [show ,setShow] = useState(<br/>);
+    const [hideButton , setHideButton] = useState(false)
+    const falseQuest = props.onResult;
+    // if (falseQuest.length === 0 )setHideButton(true)
+    const onClickHandler = (e) => {
+        e.preventDefault();
+       setHideButton(true);
         setShow(
             <div className={classes.falsequest}>
                 <h1 > سوالات اشتباه </h1>
@@ -60,8 +60,8 @@ const Result = (props) => {
             >
                 {show}
             </div>
-
-            <Button tyoe="submit" onClick={onClickHandler}> نمایش سوالات غلط</Button>
+            { !hideButton ? <Button  type="submit" onClick={onClickHandler} > نمایش سوالات غلط</Button> : <br/> }
+            {/*<Button  type="submit" onClick={onClickHandler} > نمایش سوالات غلط</Button>*/}
         </div>
     );
 }

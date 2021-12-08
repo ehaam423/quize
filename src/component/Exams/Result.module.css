@@ -39,3 +39,7 @@
     border-radius: 30px;
     /*border:2px purple dashed ;*/
 }
+.heid{
+    display: none;
+    font-size: larger;
+}
