@@ -276,7 +276,8 @@ function App() {
                 ],
             },
             {
-                questionText: 'رای گردش یا تغییر مسیر به چپ اگر وسیله نقلیه موتوری فاقد چراغ راهنما باشد باید ...؟',
+                questionText: 'برای گردش یا تغییر مسیر به چپ اگر وسیله نقلیه' +
+                    ' موتوری فاقد چراغ راهنما باشد باید ...؟',
                 questionImage: "",
                 questionId: 8,
                 answerOptions: [
@@ -471,14 +472,14 @@ function App() {
                         answerText: 'پیش از ورود ، توقف و با رعایت حق تقدم وارد راه اصلی شود',
                         id: Math.random().toString(),
                         answerImage: "",
-                        isCorrect: false,
+                        isCorrect: true,
                         userAnswer: false,
                     },
                     {
                         answerText: 'سریعاً به سمت چپ گردش نماید',
                         id: Math.random().toString(),
                         answerImage: "",
-                        isCorrect: true,
+                        isCorrect: false,
                         userAnswer: false,
                     },
                     {
@@ -561,7 +562,8 @@ function App() {
                 ],
             },
             {
-                questionText: 'انندگان هنگام روبرو شدن با وسایل نقلیه ای که در جهت مخالف حرکت می کند حداقل از چند متری از چراغ نور پایین استفاده می نمایند؟',
+                questionText: 'رانندگان هنگام روبرو شدن با وسایل نقلیه ای که در' +
+                    ' جهت مخالف حرکت می کند حداقل از چند متری از چراغ نور پایین استفاده می نمایند؟',
                 questionImage: "",
                 questionId: 16,
                 answerOptions: [
@@ -950,7 +952,7 @@ function App() {
                 ],
             },
             {
-                questionText: 'کدامیک از تابلو های زیر جز تابلوهای محلی نمی‌باشد ؟',
+                questionText: ' کدام یک از موارد زیر در خصوص کمک های اولیه صحیح می باشد؟',
                 questionImage: "",
                 questionId: 27,
                 answerOptions: [
@@ -1298,7 +1300,6 @@ function App() {
                             answerText: 'تراکم ترافیک',
                             answerImage: "",
                             id: Math.random().toString(),
-
                             isCorrect: true,
                             userAnswer: false,
                         },
@@ -1306,7 +1307,6 @@ function App() {
                             answerText: 'خطر تصادف',
                             answerImage: "",
                             id: Math.random().toString(),
-
                             isCorrect: false,
                             userAnswer: false,
                         },
@@ -1314,7 +1314,6 @@ function App() {
                             answerText: ' عبور وسایل نقلیه',
                             answerImage: "",
                             id: Math.random().toString(),
-
                             isCorrect: false,
                             userAnswer: false,
                         },
@@ -1322,7 +1321,6 @@ function App() {
                             answerText: 'عبور سواری',
                             answerImage: "",
                             id: Math.random().toString(),
-
                             isCorrect: false,
                             userAnswer: false,
                         },
@@ -1517,9 +1515,9 @@ function App() {
                     questionId: 12,
                     answerOptions: [
                         {
-                            answerText: 'کنترل دوره ای تایر زاپاس مهم است',
+                            answerText: ' ۲۰۰ متری',
                             id: Math.random().toString(),
-                            answerImage: " ۲۰۰ متری",
+                            answerImage: "",
                             isCorrect: false,
                             userAnswer: false,
                         },
@@ -1713,7 +1711,7 @@ function App() {
                             userAnswer: false,
                         },
                         {
-                            answerText: 'ON',
+                            answerText: 'LOCK',
                             id: Math.random().toString(),
                             answerImage: "",
                             isCorrect: true,
@@ -1898,7 +1896,7 @@ function App() {
                 },
                 {
                     questionText: 'از ..... برای کنترل کلاچ و از ..... برای کنترل پدال های گاز و ترمز استفاده می شود ؟',
-                    questionImage: <img src="images/momtad23.png" alt="FJ"/>,
+                    questionImage: "",
                     questionId: 23,
                     answerOptions: [
                         {
