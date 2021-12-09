@@ -2182,6 +2182,1093 @@ function App() {
 
 
             ]
+        },
+        {
+            azmon: [
+                {
+                    questionText: 'کدام تابلو بیانگر تقاطع جاده و راه‌آهن بدون' +
+                        ' راهبند در ۳۰۰ متری می باشد',
+                    questionImage: "",
+                    questionId: 1,
+
+                    answerOptions: [
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-1.png" alt="adf"/>,
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                            checked: false
+                        },
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-1-1.png" alt="adf"/>,
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                            checked: false
+                        },
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-1-3.png"
+                                              alt="adf"/>,
+                            id: Math.random().toString(),
+                            isCorrect: true,
+                            userAnswer: false,
+                            checked: false
+                        },
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-1-4.png" alt="adf"/>,
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                            checked: false
+                        },
+                    ],
+                },
+                {
+                    questionText: 'نام این تابلو چیست ؟',
+                    questionImage: <img src="images/3-2.png" alt="alaki"/>,
+                    questionId: 2,
+                    answerOptions: [
+                        {
+                            answerText: 'ریزش سنگ',
+                            answerImage: "",
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'سرازیری خطرناک',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'شیب سرازیری ۱۰ درصد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'سربالایی خطرناک',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'مفهوم این تابلو چیست ؟',
+                    questionImage: <img src="images/3-3.png" alt="dda"/>,
+                    questionId: 3,
+                    answerOptions: [
+                        {
+                            answerText: 'حداقل سرعت در خط های عبور',
+                            answerImage: "",
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'حداکثر سرعت در خط های عبور',
+                            answerImage: "",
+                            id: Math.random().toString(),
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'حداکثر سرعت در خط دوم 80 کیلومتر بر ساعت',
+                            answerImage: "",
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'حداکثر سرعت در خط دوم 100 کیلومتر بر ساعت ',
+                            answerImage: "",
+                            id: Math.random().toString(),
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'این تابلو بیانگر چیست  ؟',
+                    questionImage: <img src="images/Vorfahrtstraße150.png" alt="FJ"/>,
+                    questionId: 4,
+                    answerOptions: [
+                        {
+                            answerText: 'رعایت حق تقدم',
+                            answerImage: "",
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'خیابان اصلی',
+                            answerImage: "",
+                            id: Math.random().toString(),
+
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ورود ممنوع',
+                            answerImage: "",
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'عبور کلیه وسایل نقلیه ممنوع',
+                            answerImage: "",
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام تابلو بیانگر پارکینگ می باشد ؟',
+                    questionImage: "",
+                    questionId: 5,
+                    answerOptions: [
+                        {
+                            answerText: '',
+                            answerImage:<img src="images/3-5-1.png" alt='asdff'/> ,
+                            id: Math.random().toString(),
+
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            answerImage:<img src="images/3-5-2.png" alt='asdff'/> ,
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-5-3.png" alt='asdff'/>,
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            answerImage: <img src="images/3-5-4.png" alt='asdff'/>,
+                            id: Math.random().toString(),
+
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام یک از تابلوهای زیر جز تابلوهای راهنمای مسیر نمی‌باشد ؟',
+                    questionImage: "",
+                    questionId: 6,
+                    answerOptions: [
+                        {
+                            answerText: '',
+                            id: Math.random().toString(),
+
+                            answerImage: <img src="images/3-6-1.png" alt='dfd'/>,
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            id: Math.random().toString(),
+
+                            answerImage: <img src='images/3-6-2.png' alt='sdf'/>,
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            id: Math.random().toString(),
+
+                            answerImage: <img src='images/3-6-3.png' alt='asdf'/>,
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '',
+                            id: Math.random().toString(),
+
+                            answerImage: <img src='images/3-6-4.png' alt='asdf'/>,
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'در تقاطع روبه‌رو که فاقد چراغ راهنمایی است حق تقدم با کدام خودرو می باشد؟',
+                    questionImage: <img src="images/3-7.png" alt='asdff'/>,
+                    questionId: 7,
+                    answerOptions: [
+                        {
+                            answerText: 'خودرو آبی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'خودرو قرمز',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'خودرویی که فاقد تابلو رعایت حق تقدم است',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'موارد ۲,۳',
+                            id: Math.random().toString(),
+
+                            answerImage: '',
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: "مفهوم چراغ سبز راهنمایی چیست",
+                    questionImage: <img src="images/3-8.png" alt='asdff'/>,
+                    questionId: 8,
+                    answerOptions: [
+                        {
+                            answerText: 'ایست کامل و سپس عبور',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'عبور یا گردش آزاد است مگر آنکه گردش نمودن توسط علائم دیگر ممنوع باشد',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'با مشاهده این چراغ رعایت حق تقدم وسایلی که مستقیم حرکت می کنند و یا عابرین پیاده الزامی است',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'موارد ۲ و ۳ صحیح می باشد',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: "کدام نوع از خطوط پارک در این شکل نشان داده شده است",
+                    questionImage: <img src="images/3-9.png" alt='asdff'/>,
+                    questionId: 9,
+                    answerOptions: [
+                        {
+                            answerText: 'افقی ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'عمودی ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'مورب ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'هیچکدام',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'وسیله نقلیه طویل وسیله ای است که ... ؟',
+                    questionImage: "",
+                    questionId: 10,
+                    answerOptions: [
+                        {
+                            answerText: 'طول آن حداکثر 12/5 متر باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'عرض آن بیش از 12/5 متر باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'طول آن حداقل 12/5 متر باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'طول آن بیش از 12/5 متر باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام یک از موارد زیر در خصوص مفهوم چراغ زرد صحیح نمی باشد؟',
+                    questionImage: <img src="images/3-11.png" alt='asdff'/>,
+                    questionId: 11,
+                    answerOptions: [
+                        {
+                            answerText: 'با دیدن این چراغ باید از سرعت خودرو کاسته تا بتوانید به آرامی پشت خط توقف بایستید',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'به معنی هشدار برای تغییر رنگ از قرمز به سبز است و با زرد شدن چراغ باید به حرکت خود ادامه داد و با احتیاط از تقاطع عبور کرد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'این چراغ به معنی هشدار برای تغییر رنگ چراغ از سبز به قرمز است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'در صورتی که چراغ زرد شده و شما قبلا در تقاطع وارد شده اید باید به حرکت خود ادامه داده و با احتیاط عبور نمایید',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'مفهوم رنگ نارنجی در علائم عبور و مرور چیست؟',
+                    questionImage: <img src="images/3-12.png" alt='asdff'/>,
+                    questionId: 12,
+                    answerOptions: [
+                        {
+                            answerText: 'راهنما برای مناطق تفریحی و فرهنگی و' +
+                                ' گردشگری',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'راهنما برای مناطق مدرسه تفریحی و فرهنگی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'علامت دستوری و راهنمای مسیر در سایر راه ها',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'راهنما برای مناطق اداری آموزشی و خدماتی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'حداکثر سرعت در آزادراه ها چند کیلومتر است ؟',
+                    questionImage: "",
+                    questionId: 13,
+                    answerOptions: [
+                        {
+                            answerText: '۱۲۵ کیلومتر ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '۱۲۰ کیلومتر',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '۱۱۰ کیلومتر',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'حداقل ۷۰ کیلومتر',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'دور زدن از روی خط پر و یا ممتد ...........؟',
+                    questionImage: "",
+                    questionId: 14,
+                    answerOptions: [
+                        {
+                            answerText: 'ممنوع است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'از ۱۵۰ متری تونل ها',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'از ۱۰۰ متری مانده به پیچ ها',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'از ۱۵۰ متری خط ها تا ۱۵۰ متری بعدش',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'سبقت گرفتن از وسیله نقلیه ای که خود در حال سبقت گرفتن است.......؟',
+                    questionImage: "",
+                    questionId: 15,
+                    answerOptions: [
+                        {
+                            answerText: 'مجاز است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'چنانچه احتمال تصادف نباشد مجاز است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ممنون از مگر در راهی که به دلیل وجود سه خط عبور یا بیشتر این عمل مجاز می باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'تحت هر شرایطی ممنوع است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: "چرا شکسته و کثیف بودن شیشه های خودرو می‌تواند" +
+                        " خطرناک باشد ؟",
+                    questionImage: "",
+                    questionId: 16,
+                    answerOptions: [
+                        {
+                            answerText: 'چون باعث کاهش انعکاس نور می شود',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' چون باعث افزایش انعکاس نور می شود',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'خطری ندارد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'چون باعث کاهش دید میشود',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'ترمز دستی یا .... بر چرخ های ..... اثر دارد؟',
+                    questionImage: "",
+                    questionId: 17,
+                    answerOptions: [
+                        {
+                            answerText: ' اولیه_ چرخ های جلو ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ثانویه _چرخ های جلو',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'اولیه _چرخ های عقب',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ثانویه _ چرخ‌های عقب',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'نام دیگر اهرم ترمز دستی چیست ؟',
+                    questionImage: "",
+                    questionId: 18,
+                    answerOptions: [
+                        {
+                            answerText: 'ترمز اولیه',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ترمز توقف',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'ترمز پارک',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'گزینه ۲ و ۳',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: ' وظیفه کدام قطعه ممانعت از ورود گرد و غبار و دیگر ذرات معلق به داخل موتور میشود؟',
+                    questionImage: "",
+                    questionId: 19,
+                    answerOptions: [
+                        {
+                            answerText: 'فیلتر روغن',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'فیلتر سوخت',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'فیلتر هوا',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'فن',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام قطعه زمان واکنش سیستم ترمز را کاهش می دهد؟',
+                    questionImage: "",
+                    questionId: 20,
+                    answerOptions: [
+                        {
+                            answerText: 'پدال ترمز',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'بوستر',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'روغن ترمز',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'کاسه ترمز',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'قبل از شروع حرکت باید کدام یک از چراغ های خودرو مورد بازبینی قرار گیرد؟',
+                    questionImage: "",
+                    questionId: 21,
+                    answerOptions: [
+                        {
+                            answerText: ' چراغ جلو _چراغ عقب_ چراغ راهنما _چراغ ABS',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' چراغ جلو_ چراغ خطر_ چراغ راهنما _چراغ دنده عقب',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' چراغ جلو _چراغ عقب_ چراغ راهنما',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'نیازی به بازبینی چراغ ها می باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: ' هدف از تسلط کامل پاها و دستها و تجهیزات کنترلی همچون پدال ها ، اهرم ها و غربیلک فرمان می باشد ؟',
+                    questionImage: "",
+                    questionId: 22,
+                    answerOptions: [
+                        {
+                            answerText: 'معاینه فنی ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' تنظیم آینه ها  ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'سلامت فنی ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'تنظیم صندلی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'وظیفه کنیستر چیست ؟',
+                    questionImage: "",
+                    questionId: 23,
+                    answerOptions: [
+                        {
+                            answerText: 'از ورود بخارهای بنزین به فضای آزاد جلوگیری می‌کند',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' قدرت ترمزگیری را افزایش می‌دهد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' فرمان پذیری بهبود می‌یابد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'خرابی سیستم کیسه هوا را اعلام می‌کند',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'استفاده از کدام نوع کمربند ایمنی در خودرو الزامی است  ؟',
+                    questionImage: "",
+                    questionId: 24,
+                    answerOptions: [
+                        {
+                            answerText: 'نوع کمربند ایمنی مهم نیست  .',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'دو نقطه ای .',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'سه نقطه ای ',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'کمربند ران',
+                            id: Math.random().toString(),
+
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام یک از موارد زیر در مورد دسته دنده اشتباه است؟',
+                    questionImage: <img src="images/3-25.png" alt="FJ"/>,
+                    questionId: 25,
+                    answerOptions: [
+                        {
+                            answerText: ' اهرم دنده معمولاً در طرف راست راننده قرار دارد ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'گیربکس خودروهای سواری معمولاً ۵ حالت( ۵ سرعته) می باشد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' اهرم دنده به صورت مستقیم با سیستم کلاچ' +
+                                ' در' +
+                                ' ارتباط است',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' وقتی دنده در حالت خلاص می باشد نیرویی به پشت چرخ محرک منتقل نخواهد شد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: ' ضد یخ چه عملی در رادیاتور انجام می‌دهد ؟',
+                    questionImage: "",
+                    questionId: 26,
+                    answerOptions: [
+                        {
+                            answerText: 'جلوگیری از یخ زدگی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'به تاخیر انداختن نقطه جوش',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'در تابستان منجر به جوش آوردن زودتر موتور نمی شود ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'همه موارد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: ' در برخورد با یک مصدوم بیهوش مهمترین اقدام چیست؟',
+                    questionImage: "",
+                    questionId: 27,
+                    answerOptions: [
+                        {
+                            answerText: 'باز کردن راه تنفسی و حفظ گردش خون',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'گرفتن فشار خون',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' بلند کردن دست مصدوم ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'نشاندن مصدوم روی صندلی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کدام یک از موارد زیر نشان دهنده به وجود آمدن خستگی و خواب آلودگی در حین رانندگی است ؟',
+                    questionImage: "",
+                    questionId: 28,
+                    answerOptions: [
+                        {
+                            answerText: ' احساس سنگینی در پلک ها_ کنترل آگاهانه خودرو_ عدم توانایی در کنترل خودرو',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'پلک زدن _ عدم کنترل خودرو',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'افزایش سرعت واکنش نسبت به شرایط_ احساس سنگینی در پلک ها',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'احساس سنگینی پلک ها _عدم کنترل آگاهانه سرعت خودرو _عدم تمرکز روی رانندگی',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: 'کمک های اولیه چیست ؟',
+                    questionImage: "",
+                    questionId: 29,
+                    answerOptions: [
+                        {
+                            answerText: 'به اقدامات اولیه‌ای می‌گویند که مصدوم را در محل حادثه از خطر مرگ نجات دهد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' به اقدامات اولیه‌ای گویند که بلافاصله پس از بروز سانحه و قبل از رسیدن به مرکز درمانی صورت می گیرد',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'به اقدامات اولیه‌ای که در درمانگاه یا مراکز اورژانس انجام می شود',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: 'به اقدامات صورت گرفته توسط پرستاران در مرکز اورژانس می‌گویند',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },
+                {
+                    questionText: ' توقف در کدام مورد مجاز میباشد؟',
+                    questionImage: "",
+                    questionId: 30,
+                    answerOptions: [
+                        {
+                            answerText: 'در ۱۵ متری چراغ راهنما ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' گذرگاه پیاده ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: ' تابلوی ایستادن برای مدت کوتاه ',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: true,
+                            userAnswer: false,
+                        },
+                        {
+                            answerText: '۱۵ متری تقاطع ها',
+                            id: Math.random().toString(),
+                            answerImage: "",
+                            isCorrect: false,
+                            userAnswer: false,
+                        },
+                    ],
+                },]
         },];
     let numbertest = prompt("entr number");
 
