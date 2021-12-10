@@ -2204,7 +2204,7 @@ function App() {
                             answerText: '',
                             answerImage: <img src="images/3-1-1.png" alt="adf"/>,
                             id: Math.random().toString(),
-                            isCorrect: false,
+                            isCorrect: true,
                             userAnswer: false,
                             checked: false
                         },
@@ -2213,7 +2213,7 @@ function App() {
                             answerImage: <img src="images/3-1-3.png"
                                               alt="adf"/>,
                             id: Math.random().toString(),
-                            isCorrect: true,
+                            isCorrect: false,
                             userAnswer: false,
                             checked: false
                         },
@@ -3270,6 +3270,9 @@ function App() {
                     ],
                 },]
         },];
+
+
+
     let numbertest = prompt("entr number");
 
 
